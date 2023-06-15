@@ -14,8 +14,7 @@ body{
 
 nav ul{
 
-    height: 10vh;
-    width: 100vw;
+    max-width: 100vw;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -30,7 +29,7 @@ nav ul li{
     list-style-type: none;
     font-size: 18px;
     font-weight: 500;
-    margin:5px 20px ;
+    margin:20px ;
     font-weight: 900;
 }
 
@@ -50,14 +49,14 @@ img[alt="menu"]{
 
 #intro
 {
-    height: 60vh;
-    width: 100vw;
+    
+    max-width: 100vw;
    display: flex;
    flex-direction: row;
    align-items: center;
    justify-content: center; 
    gap: 20px;
-   margin: 15px;
+   margin: 20px;
    
 }
 
@@ -113,8 +112,7 @@ img[alt="menu"]{
 
 #main-section
 {
-    height: 130vh;
-    width: 100vw;
+    max-width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -161,13 +159,14 @@ img[alt="menu"]{
 
 #bottom-part
 {
-    height: 30vh;
-    width: 100vw;
+   
+    max-width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 20px;
+    
 }
 
 #horizontal-line-bottom
@@ -213,6 +212,7 @@ img[alt="menu"]{
     {
         height: 55vh;
         flex-direction: column;
+        margin: 0px;
     }
 
     #introLine1
@@ -253,7 +253,7 @@ img[alt="menu"]{
 
 #main-section
 {
-    height: 160vh;
+    margin: 80px 0px 40px 0px;
 }
 
 .h2-text
@@ -306,7 +306,7 @@ img[alt="menu"]{
 
 #social img
 {
-    width: 6vw;
+    width: 8vw;
 }
 
 
